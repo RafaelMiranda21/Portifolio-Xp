@@ -1,0 +1,107 @@
+
+
+.Area-Atuacao{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(206, 206, 206, .6);
+    overflow: hidden;
+    position: relative;
+}
+
+.sessao-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.sessao-header h1{
+    border-bottom: 2px solid #6a3093;
+    font-size: 2rem;
+}
+
+.Atuacao-slides{
+    height: 90%;
+    width: 99999px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: all 1.5s ;
+}
+.slide{
+    width: 100vw;
+    height: 100%;
+   
+    
+}
+
+.slide img{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ .descricao-slide{
+    width: 100vw;
+    height: 4rem;
+    border-radius: 1.2rem;
+    position: absolute;
+    bottom: 2rem;
+   background-color: rgba(0, 0, 0, .4);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.descricao-slide h1{
+    color: #fff;
+    text-shadow: 0.2rem .2rem 3px rgba(0, 0, 0, 0.9);
+}
+
+.indicador-slide{
+    width: 100vw;
+    position: absolute;
+    bottom:1%;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.ponto-indicador-slide{
+    height: 1rem;
+    width: 1rem;
+    border: 2px solid #57088f;
+    border-radius: 8px;
+    margin-left: 4px;
+    margin-right: 4px; 
+    box-shadow: -0.1rem -.2rem 5px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: all 1.5s ;
+}
+
+.ativo, .ponto-indicador-slide:hover {
+    background-color: #330455;
+    }
+
+
+.anterior,
+.proximo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 1.4rem;
+    cursor: pointer;
+    color: #fff;
+    top: 50%;
+}
+.proximo{
+    right:0 ;
+}
+.anterior{
+    left: 0;
+}
+
+.anterior:hover,
+.proximo:hover{
+    background-color: rgba(0, 0, 0, .8);
+
+} 
