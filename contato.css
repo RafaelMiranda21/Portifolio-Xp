@@ -439,3 +439,18 @@
        right: .5rem;
    }
 }
+
+@media(max-width:768px){
+    .contato{
+       height: 25rem;
+       width: 21rem;
+       margin: 20px;
+    }
+
+    .fechar-form {
+        width: 3rem;
+        height: 3rem;
+        right: 2rem;
+        top: 2rem;
+    }
+}
