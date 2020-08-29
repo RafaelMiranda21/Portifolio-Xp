@@ -418,3 +418,24 @@
     background: -webkit-linear-gradient(to right, #8f0ec7, #100016); 
     background: linear-gradient(to right, #9c0cda, #0f0014);
 }
+
+@media(max-width:425px){
+    :root{
+       font-size: 60%;
+    }
+
+    .sessao-contatos{
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .contato{
+      height: 25rem;
+      width: 25rem;
+      margin-top:12px;
+   }
+   
+   #link-topo {
+       right: .5rem;
+   }
+}
